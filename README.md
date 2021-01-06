@@ -23,10 +23,10 @@ class About extends Me
     {
         return [
             Php::class,
-            Javascript::class,
+            C::class,
+            Cpp::class,
             Laravel::class,
-            Vuejs::class,
-            TailwindCss::class,
+            Javascript::class,
         ];
     }
 
