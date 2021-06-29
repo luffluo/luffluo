@@ -22,11 +22,10 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
-            Php::class,
+            PHP::class,
             C::class,
-            Cpp::class,
+            Go::class,
             Laravel::class,
-            Javascript::class,
         ];
     }
 
